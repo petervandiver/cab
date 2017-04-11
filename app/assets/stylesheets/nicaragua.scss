@@ -1,0 +1,293 @@
+// Place all the styles related to the Nicaragua controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$nicaYellow: #FFD700;
+
+
+.navbar {
+	background-color: black;
+}
+	
+
+
+.navbar-brand	a { 
+	
+	color: white;	
+}		
+
+.navbar-button {
+	
+	background-color: red;
+}
+
+
+.intro-block {
+	position: fixed;
+	background-image: image-url('nica_evening_beach.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom; 
+	width: 100%;
+	height: 100%;
+	top: -140px;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 768px){
+	.intro-block {
+	top: -450px;
+
+	}	
+}
+
+@media screen and (min-width: 992px){
+		.intro-block {
+		
+
+	}		
+
+
+}
+
+
+#banner {
+	position: relative;
+	top: 30em;
+
+}
+
+@media screen and (max-width: 768px){
+	#banner {
+	top: 40em;
+
+	}	
+}
+
+#banner-text {
+	text-align: center;
+
+}
+
+.banner-text h1{
+	color: red;
+
+}
+
+.banner-text h3{
+	color: red;
+
+}
+
+#primary-detail-block {
+	position: relative;
+	top: 27em;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding-top: 23px;
+	padding-bottom: 30px;
+	} 
+
+@media screen and (min-width: 768px) {
+#primary-detail-block {
+		top: 35em;
+		bottom: 40em;
+	}
+}
+
+
+.primary-detail-text {
+	max-width: 500px;
+}
+
+
+
+.primary-detail-block a {
+	
+	font-family: 'Muli' sans-serif;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 1.0em;
+
+}
+
+.primary-detail-block p {
+	
+	font-family: 'Muli' sans-serif;
+	color: white;
+	font-size: 1.2em;
+
+}
+
+.horizontal-break {
+	display: inline-block;
+	width: 60px;
+	height: 1px;
+	background-color: white;
+	margin-top: 1em;
+
+}
+
+
+
+#secondary-detail-block {
+	position: relative;
+	top: 350px;
+	text-align: center;
+	background-color: black;
+	padding-top: 1.5em;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+	#secondary-detail-block{
+		top: 460px;
+		padding-bottom: 50px
+	}
+}
+
+.secondary-detail-text-block {
+	display: block;
+	position: relative;
+	padding: 1.0em;
+	padding-bottom: 20px;
+}
+
+.secondary-detail-text {
+	max-width: 380px;
+	min-width: 320px;
+	margin-left:auto;
+   	margin-right:auto;
+   	display:block;
+}
+
+.secondary-detail-block a {
+	font-family: 'Muli' sans-serif;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0.2em;
+
+}
+.secondary-detail-block p {
+	font-family: 'Muli' sans-serif;
+	color: white;
+	font-size: 1.0em;
+	height: 30px;
+	text-align: center;
+	padding-top: 0.4em;
+	padding-bottom: 1em;
+}
+
+#accommodations-block {
+	position: relative;
+	top: 350px;
+	background-image: image-url('housing1.png');
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}   
+
+@media screen and (min-width: 768px){
+	#accommodations-block{
+		top: 450px;
+
+	}
+}
+
+
+#accommodations-header {
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.accommodations-header h2{
+	
+	font-family: 'Muli' sans-serif;
+	text-align: center;
+	color: red;
+	font-size: 2em;
+}
+
+.accommodations-text-block {
+	max-width: 340px;
+	min-width: 290px;
+	margin-left:auto;
+   	margin-right:auto;
+   	display:block;
+
+}
+
+.accommodations-block a {
+	padding-top: 1.0em;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.accommodations-block p {
+	padding-top: .7em;
+	font-family: 'Muli' sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 1.0em;
+
+}
+
+
+#investment-block {
+	position: relative;
+	top: 100px;
+	background-color: black;
+	text-align: center;
+}   
+
+.investment-text-block {
+	max-width: 380px;
+	min-width: 320px;
+	margin-left:auto;
+   	margin-right:auto;
+   	display:block;
+}
+
+
+#mission-block {
+	
+
+}   
+
+#footer {
+background-color: black;
+position: relative;
+width: 100%;
+height: 20px;
+
+}
+
+
+
+
+
+// nica-travel
+
+
+#background-trave-vid  {
+    position: absolute;
+    z-index: -1;
+ 	min-width: 100%;
+    height: auto;
+    top:-2px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: none;
+}
+

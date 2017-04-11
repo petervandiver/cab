@@ -1,0 +1,65 @@
+<%= form_for(@application) do |f| %>
+  <% if @application.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@application.errors.count, "error") %> prohibited this application from being saved:</h2>
+
+      <ul>
+      <% @application.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :first_name %><br>
+    <%= f.text_field :first_name %>
+  </div>
+  <div class="field">
+    <%= f.label :last_name %><br>
+    <%= f.text_field :last_name %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.text_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :reason_for_interest %><br>
+    <%= f.text_area :reason_for_interest %>
+  </div>
+  <div class="field">
+    <%= f.label :educational_background %><br>
+    <%= f.text_field :educational_background %>
+  </div>
+  <div class="field">
+    <%= f.label :employment_background %><br>
+    <%= f.text_field :employment_background %>
+  </div>
+  <div class="field">
+    <%= f.label :code_experience %><br>
+    <%= f.text_field :code_experience %>
+  </div>
+  <div class="field">
+    <%= f.label :foreign_languages %><br>
+    <%= f.text_field :foreign_languages %>
+  </div>
+  <div class="field">
+    <%= f.label :travel_experience %><br>
+    <%= f.text_field :travel_experience %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

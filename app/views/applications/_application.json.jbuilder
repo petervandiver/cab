@@ -1,0 +1,2 @@
+json.extract! application, :id, :first_name, :last_name, :email, :phone, :location, :age, :reason_for_interest, :educational_background, :employment_background, :code_experience, :foreign_languages, :travel_experience, :created_at, :updated_at
+json.url application_url(application, format: :json)
