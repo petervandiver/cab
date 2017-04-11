@@ -26946,3 +26946,89 @@ Processing by NicaraguaController#index as HTML
   Rendered nicaragua/index.html.erb within layouts/application (0.7ms)
   Rendered shared/_navbar.html.erb (0.1ms)
 Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:16:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 2201ms (Views: 2191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b09e5991f34eb7869489395972db36549d55ac5299719980d6e709649b21ea11.css?body=1" for ::1 at 2017-04-11 19:16:22 -0400
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:17:20 -0400
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:19:24 -0400
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:27:03 -0400
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:29:17 -0400
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua/apply" for ::1 at 2017-04-11 19:29:20 -0400
+Processing by ApplicationsController#new as HTML
+  Rendered applications/_form.html.erb (29.3ms)
+  Rendered applications/new.html.erb within layouts/application (31.0ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 83.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/nicaragua/apply" for ::1 at 2017-04-11 19:30:11 -0400
+Processing by ApplicationsController#new as HTML
+  Rendered applications/_form.html.erb (6.3ms)
+  Rendered applications/new.html.erb within layouts/application (7.4ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua/apply" for ::1 at 2017-04-11 19:31:17 -0400
+Processing by ApplicationsController#new as HTML
+  Rendered applications/_form.html.erb (7.8ms)
+  Rendered applications/new.html.erb within layouts/application (9.0ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua/apply" for ::1 at 2017-04-11 19:31:38 -0400
+Processing by ApplicationsController#new as HTML
+  Rendered applications/_form.html.erb (6.5ms)
+  Rendered applications/new.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua/apply" for ::1 at 2017-04-11 19:35:13 -0400
+Processing by ApplicationsController#new as HTML
+  Rendered applications/_form.html.erb (6.0ms)
+  Rendered applications/new.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nicaragua" for ::1 at 2017-04-11 19:35:19 -0400
+Processing by NicaraguaController#index as HTML
+  Rendered nicaragua/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
